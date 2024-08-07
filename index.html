@@ -52,9 +52,24 @@
 
         <div class="principal">
             <h1 class="titulo">Matematiconauta</h1>
-            <button>PLAY</button>
+            <button onclick="transicao('inicial')">PLAY</button>
         </div>
 
     </div>
+    <script>
+
+        function transicao(momento){
+        
+        switch (momento){
+            case 'inicial':
+        
+            window.location.href = "fase1.html";
+            //window.location.assign("fasel.html");
+            break;
+        }
+        
+        }
+        
+        </script>
 </body>
 </html>
